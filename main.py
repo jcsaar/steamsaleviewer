@@ -19,8 +19,7 @@ for current_sale, game_element in zip(current_sales, game_elements):
 
     print("Title:" + game_title.text.strip())
     print("Description:" + game_description.text.strip())
-    if sale_end:
-        print("Sales end time:" + sale_end.text.strip())
+    print("Sales end time:" + sale_end.text.strip())
     print("Current sales price:" + current_sale_price.text.strip())
     print("Original sales price:" + original_price.text.strip())
     print()
